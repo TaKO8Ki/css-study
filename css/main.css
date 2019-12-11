@@ -1,0 +1,189 @@
+@import "reset.css";
+
+body {
+    color: #2F2D32;
+    background: #f9f9f9;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+#page-header {
+    z-index: 10;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.page-container {
+    position: relative;
+    margin: 130px 10px;
+    line-height: 30px;
+    top: 70px;
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+.page-application-icon {
+    position: absolute;
+    right: 0px;
+}
+
+.page-image {
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.page-image img:hover {
+    box-shadow: 3px 3px 10px 0px #ccc;
+    border-radius: 5px;
+    transition: 0.5s;    
+}
+
+/* タイトル */
+
+.page-title {
+    background: #494949;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.page-sub-title {
+    border-left: solid 5px #494949;
+    padding: 0px 0px 0px 10px;
+    border-bottom: solid 1px #494949;
+    margin: 20px 0px 20px 0px;
+}
+
+/* ボタン */
+
+.page-link-button {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.page-fixed-button {
+    position: fixed;
+    color: #fff;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* リスト */
+
+ul.page-row-list {
+	list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+ul.page-row-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.page-row-list li:hover {
+    font-size: 35px;
+}
+
+ul.page-row-list li:hover::first-letter {
+    color: #0FA369;
+    font-size: 35px;
+}
+
+ul.page-row-list li::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul.page-diamond-list {
+	list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+ul.page-diamond-list li:before {
+	content: '◆';
+    margin-left:-10px;
+    margin-right: 10px;
+    color: #494949;
+    font-size: 18px;
+}
+
+/* テーブル */
+
+table.page-table th {
+    background: #0FA369;
+    color: #fff;
+    box-sizing: border-box;
+    border-right: solid 1px #fff;
+    padding: 7px;
+}
+table.page-table th:last-child {
+    border-right: solid 1px #0FA369;
+}
+table.page-table td {
+    border: solid 1px #0FA369;
+    box-sizing: border-box;
+    padding: 5px 13px 13px 5px;
+}
+table.page-table tr:nth-child(odd) {
+    background: #eee;
+}
+
+/* その他 */
+
+.page-mt-20 {
+    margin-top: 10px;
+}
+
+.page-mb-20 {
+    margin-bottom: 10px;
+}
+
+.page-ml-20 {
+    margin-left: 10px;
+}
+
+.page-mr-20 {
+    margin-right: 10px;
+}
+
+.main-background {
+    background: #0FA369;
+}
+
+.sub-1-background {
+    background: #494949;
+}
+
+.sub-2-background {
+    background: #888888;
+}
+
+.page-emphasized {
+    color: rgb(83, 83, 83);
+}
+
+.box-shadow {
+    box-shadow: 3px 3px 10px 0px #ccc;
+}
